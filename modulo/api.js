@@ -2,7 +2,7 @@
 'use strict'
 
 async function pesquisarFotos() {
-    const url = `http://localhost:3000/fotos`
+    const url = `https://carrossel-back-6q9u.onrender.com/fotos`
     const response = await fetch(url)
     const fotos = await response.json()
     return fotos
